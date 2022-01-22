@@ -4,6 +4,13 @@ body{
 h1{
     font-size: 50px;
 }
+section{
+    margin-bottom: 80px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
 .container{
     width: 90%;
     margin: auto;
@@ -14,7 +21,7 @@ h1{
     padding: 20px;
 }
 .half-width p{
-    width: 80%;
+    width: 90%;
     font-size: 18px;
 }
 .default-color{
@@ -31,5 +38,34 @@ h1{
 }
 .half-width img{
     max-width: 80%;
-    margin-left: 20px;
+}
+.dream-bg{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiance{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.card{
+    padding: 10px;
+    box-shadow: 5px 8px 20px gray;
+    margin: 15px;
+}
+#experiance1{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, red, tomato);
+    border-image-slice: 1;
+    border-radius: 8px;
+}
+#experiance2{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 8px;
+}
+footer{
+    text-align: center;
 }
